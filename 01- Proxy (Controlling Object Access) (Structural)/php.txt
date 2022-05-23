@@ -1,0 +1,3 @@
+Usage examples: While the Proxy pattern isn’t a frequent guest in most PHP applications, it’s still very handy in some special cases. It’s irreplaceable when you want to add some additional behaviors to an object of some existing class without changing the client code.
+
+Identification: Proxies delegate all of the real work to some other object. Each proxy method should, in the end, refer to a service object unless the proxy is a subclass of a service.
